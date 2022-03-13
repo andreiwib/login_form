@@ -1,0 +1,165 @@
+body {
+background: linear-gradient(to right, #7fffd4, palegreen, #228b22);
+}
+.table {
+width: 350px;
+height: 350px;
+float: left;
+margin: 0 0 0 570px;
+background-color: salmon;
+border: 1px solid black;
+border-radius: 50px 0 50px 0;
+opacity: 50%;
+transform: rotate(-20deg);
+z-index: -1;
+}
+ul li {
+display: block;
+font-family: Lucida Handwriting, cursive;
+font-size: 14px;
+text-align: center;
+}
+
+/*
+span {
+display: block;
+width: 350px;
+margin: 0;
+border: 1px solid black;
+} */
+img {
+display: block;
+margin: 0;
+padding: 2px 0 2px 75px;
+width: 350px;
+height: 350px;
+border-radius: 0 50px 0 50px;
+opacity: 50%;
+transform: rotate(20deg);
+}
+h1 {
+text-align: center;
+}
+h2 {
+color: red;
+float: left;
+}
+h3 {
+text-align: center;
+}
+footer {
+margin: 10px;
+padding: 20px;
+text-align: left;
+}
+.exceptie {
+color: red;
+text-decoration: underline;
+}
+p {
+position: relative;
+margin: auto;
+padding: 2px;
+text-shadow: 1px 1px;
+text-align: center;
+z-index: 1;
+}
+/* position:absolute;
+    padding:0;
+    left:0;*/
+/*.menu{
+	float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+
+.menu_clear {
+border: 1px solid black;
+border-radius: 25px;
+background-color: antiquewhite;	
+margin: 25px auto;
+padding: 0 10px 0 20px;
+position: relative;
+  left: 40%;
+	bottom: 30%;
+display: inline-block;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+overflow: auto;
+}
+a {
+text-decoration: none;
+}
+#login{
+max-width: 350px;
+display: block;
+position: relative;
+justify-content: center;
+margin: auto;
+padding: 10px;
+border: 2px solid black;
+border-radius: 95px 25px 95px 25px;
+font-family: "Arial", sans-serif;
+background: linear-gradient(180deg, antiquewhite, lavender, lightskyblue);
+}
+.effect {
+font-size: 35px;
+text-shadow: 4px 4px 10px navy;
+margin: 10px 0 20px 0;
+}
+hr {
+margin: 25px 0 10px 0;
+}
+.me {
+margin: 20px 0 0 15px;
+}
+.inputbox{
+position:relative;
+}
+.input {
+position: relative;
+display: inline;
+border-radius: 30px;
+margin: 10px 10px 2px 10px;
+align-content: center;
+justify-content: center;
+padding: 2px;
+background: lightblue;
+}
+.placeholder {
+position: relative;
+display: inline;
+text-align: center;
+margin: 2px 0 50px 0;
+
+}
+.forgetPass {
+text-align: center;
+padding: 0 80px 0 110px;
+
+
+}
+.loginbtn {
+position:relative;
+display: block;
+margin: 10px 80px 10px 80px;
+padding: 5px 20px 5px 65px;
+border: 2px solid orange;
+border-radius: 45px;
+background-image: linear-gradient(to right, bisque, coral);
+color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+.loginbtn:hover {
+  background: palegreen;
+  transition: all ease-in-out 500ms;
+  color: orange;
+}
+.buttons {
+display: block;
+margin: 0;
+padding-top: 10px;
+}
